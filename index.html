@@ -1,0 +1,805 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reflection Feedback - HTML & CSS </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./scss/style.scss">
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/fontawesome.css">
+  <link href="css/all.min.css" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+ 
+  <header>
+
+    <div class="inner">
+        <div class="container header">
+            
+               <div class="col-xs-6 col-sm-6 col-md-5 col-lg-4">
+                  
+                       <a class="logo" href="https://www.netmatters.co.uk">
+                           <img src="./img/f-logo.png" alt="Netmatters Logo">
+                       </a> <!-- logo a link -->
+                   </div> <!-- end of logo container -->
+               
+               
+               <div class="actions">
+                   <a href="#" target="_blank" class="d-none d-lg-block btn btn-support" rel="nooperner noreferrer">
+                       <span class="fa fa-mouse">
+                           Support
+                       </span>
+                   </a>
+                   
+                     <a href="#" target="_blank" class="d-none d-lg-block btn btn-contact" rel="nooperner noreferrer">
+                       <span class="fa fa-paper-plane">
+                          Contact
+                       </span>
+                   </a>
+                   
+                   <div class="hidden-xs">
+                       <form method="get" action="https://www.co.uk/search" accept-charset="UTF-8" class="search-form">
+                           <label for="search-input" class="hidden">
+                            
+                           </label>
+                           <input class="form-control search-bar" placeholder="Search..." id="search-input" name="keyword" type="text" value="">
+                           <button type="submit" id="search-submit">
+                               <span class="fa fa-search" id="gly-search" aria-hidden="true"></span>
+                           </button>
+
+                           <button type="button" class="btn hamburger" data-toggle="sidebar">
+                            <span> </span>
+                            <span> </span>
+                            <span> </span>
+                    </button>
+                   
+               </div>
+
+           </div>
+
+       </div>
+      </div> <!-- end of col div -->
+                       </form>
+                   </div> <!-- end of hidden-xs pull-left div -->
+                   
+
+               </div> <!-- end of actions div -->
+               
+            <!-- end of row div -->
+        </div> <!-- end of conntainer div -->
+    </div> <!-- end of inner div -->
+
+      <!-- Main Navigation  -->
+  <div class="d-none d-lg-block main-navigation">
+    <div class="container main-navigation">
+      <ul>
+        <li class="bespoke">
+     <a href="#">
+       <span class="fas fa-th"></span>
+       <small>Bespoke</small>
+       Software
+     </a> <!-- end of bespoke software link -->
+     <ul class="software">
+      <li><a href="#">Workflow</a></li>
+      <li><a href="#">Automatic</a></li>
+      <li><a href="#">Integration</a></li>
+      <li><a href="#">Database</a></li>
+      <li><a href="#">SharePoint</a></li>
+      <li><a href="#">Management</a></li>
+      <li><a href="#">Navision</a></li>
+     </ul>
+ </li>
+    <li class="IT">
+      <a href="#">
+        <span class="fas fa-desktop"></span>
+        <small>IT</small>
+        Support
+      </a>
+      <ul class="it">
+        <li><a href="#">Managed IT</a></li>
+        <li><a href="#">Business IT</a></li>
+        <li><a href="#">Office 365</a></li>
+        <li><a href="#">Consultancy</a></li>
+        <li><a href="#">Cloud Provider</a></li>
+        <li><a href="#">Data Backup</a></li>
+       </ul>
+    </li> <!-- end of it -->
+  
+
+    <li class="marketing">
+      <a href="#">
+        <span class="fa-solid fa-chart-simple"></span>
+        <small>Digital</small>
+        Marketing
+      </a>
+      <ul class="digital">
+        <li><a href="#">Search (SEO)</a></li>
+        <li><a href="#">Paid (PPC)</a></li>
+        <li><a href="#">Conversion (CRO)</a></li>
+        <li><a href="#">Email</a></li>
+        <li><a href="#">Social Media</a></li>
+        <li><a href="#">Content</a></li>
+       </ul>
+    </li> <!-- end of digital -->
+  
+    <li class="services-nav">
+      <a href="#telecoms">
+        <span class="fa fa-phone-volume"></span>
+        <small>Telecoms</small>
+        Services
+      </a>
+      <ul class="telecoms">
+        <li><a href="#">Business Mobile</a></li>
+        <li><a href="#">Hosted VoIP</a></li>
+        <li><a href="#">Business VoIP</a></li>
+        <li><a href="#">Business Broadband</a></li>
+        <li><a href="#">Leased Line</a></li>
+        <li><a href="#">3CX Systems</a></li>
+       </ul>
+
+    </li> <!-- end of telecoms -->
+    
+    <li class="web-design">
+      <a href="#">
+        <span class="fa-solid fa-code"></span>
+        <small>Web</small>
+        Design
+      </a>
+      <ul class="web">
+        <li><a href="#">Stylish Websites</a></li>
+        <li><a href="#">eCommerce Stores</a></li>
+        <li><a href="#">Branding</a></li>
+        <li><a href="#">Apps</a></li>
+        <li><a href="#">Web Hosting</a></li>
+        <li><a href="#">Pay Monthly Websites</a></li>
+       </ul>
+  
+    </li> <!-- end of web -->
+    
+    
+    <li class="cyber">
+      <a href="#">
+        <span class="fa fa-shield"></span>
+        <small>Cyber</small>
+        Security
+      </a>
+      <ul class="security">
+        <li><a href="#">Assessment</a></li>
+        <li><a href="#">Management</a></li>
+        <li><a href="#">Penetration Testing</a></li>
+        <li><a href="#">Cyber Essentials</a></li>
+        <li><a href="#">PCI/DSS</a></li>
+        <li><a href="#">Hacker Prevention</a></li>
+       </ul>
+    </li> <!-- end of security -->
+   
+    
+    <li class="developer">
+      <a href="#">
+        <span class="fa-solid fa-graduation-cap"></span>
+        <small>Developer</small>
+        Course
+      </a>
+      <ul class="developer-course">
+        <li><a href="#">Train For A Career In Tech</a></li>
+        <li><a href="#">Scion Scheme Frequntly Questions</a></li>
+        <li><a href="#">Scion Collabrators</a></li>
+       </ul>
+    </li> <!-- end of developer course -->
+  </ul>
+
+    </div> 
+  </div> <!-- end of main-navigation -->
+
+
+  </header> <!-- end of Header -->
+
+  <div id='show_bg'>
+    <div class="text container">
+      <span class="h1">The East Of England's Leading
+        <br>
+        Technology Company
+        <br>
+      </span> 
+        <span class="bb"> Performance-driven digital and technology services
+        <br>
+        with complete transparency.
+       </span>
+    </div> <!-- text container -->
+</div> <!-- image div -->
+ 
+
+
+ <!-- OUR SERVICES -->
+
+
+  <div class="services-heading">
+    <div class="container h2">
+      <span class="our-services"><strong>Our Services</strong></span>
+  </div>
+ 
+
+ <div class="container services">
+
+
+  <div class="item-1">
+    <div class="block-software">
+      <span class="icon">
+        <span class="fas fa-th fa-2x">
+        </span> <!-- span icon-display -->
+      </span> <!-- span icon -->
+      <span class="h2">Bespoke Software</span>
+      <span class="p">
+        Tailored software solutions to improve  <br> business productivity and online profits.
+      </span> <!-- span  class p-->
+      <br>
+      <span class="btn-container">
+        <span class="btn-software">
+          Read More
+        </span> <!-- span btn-software -->
+      </span> <!-- span btn-container -->
+    </div> <!-- end of block it div -->
+  </div> <!-- end of item-1-->
+
+  <div class="item-2">
+    <div class="block-it">
+      <span class="icon">
+        <span class="fas fa-desktop fa-2x">
+        </span> <!-- span icon-display -->
+      </span> <!-- span icon -->
+      <span class="h2">IT Support</span>
+      <span class="p">
+        Remotely managed IT services that is <br> catered to your business needs, adds<br> value & reduces costs.
+      </span> <!-- span  class p-->
+      <span class="btn-container">
+        <span class="btn-it">
+          Read More
+        </span> <!-- span btn-software -->
+      </span> <!-- span btn-container -->
+    </div> <!-- end of block it div -->
+  </div> <!-- end of item-1-->
+  
+
+  <div class="item-3">
+    <div class="block-digital">
+      <span class="icon">
+        <span class="fa-solid fa-chart-simple fa-2x">
+        </span> <!-- span icon-display -->
+      </span> <!-- span icon -->
+      <span class="h2">Digital Marketing</span>
+      <span class="p">
+        Driven brand awareness & ROI through creative digital marketing campaigns.
+      </span> <!-- span  class p-->
+      <br>
+      <span class="btn-container">
+        <span class="btn-digital">
+          Read More
+        </span> <!-- span btn-software -->
+      </span> <!-- span btn-container -->
+    </div> <!-- end of block it div -->
+  </div> <!-- end of item-1-->
+  
+</div> <!-- container servies -->
+
+<div class="container services-second-row">
+
+  <div class="item-4">
+    <div class="block-telecoms">
+      <span class="icon">
+        <span class="fa fa-phone-volume fa-2x">
+        </span> <!-- span icon-display -->
+      </span> <!-- span icon -->
+      <span class="h2">Telecoms Services</span>
+      <span class="p">
+        Stay connected with bespoke  <br> telecoms solutions when you <br> need it most.
+      </span> <!-- span  class p-->
+      <span class="btn-container">
+        <span class="btn-telecoms ">
+          Read More
+        </span> <!-- span btn-software -->
+      </span> <!-- span btn-container -->
+    </div> <!-- end of block it div -->
+  </div> <!-- end of item-1-->
+
+  <div class="item-5">
+    <div class="block-web">
+      <span class="icon">
+        <span class="fa-solid fa-code fa-2x">
+        </span> <!-- span icon-display -->
+      </span> <!-- span icon -->
+      <span class="h2">Web Design</span>
+      <span class="p">
+        User-centric design for <br> business looking to make a <br> lasting impression.
+      </span> <!-- span  class p-->
+      <span class="btn-container">
+        <span class="btn-web">
+          Read More
+        </span> <!-- span btn-software -->
+      </span> <!-- span btn-container -->
+    </div> <!-- end of block it div -->
+  </div> <!-- end of item-1-->
+
+  <div class="item-6">
+    <div class="block-security">
+      <span class="icon">
+        <span class="fa fa-shield fa-2x">
+        </span> <!-- span icon-display -->
+      </span> <!-- span icon -->
+      <span class="h2">Cyber Security</span>
+      <span class="p">
+        Ensuring your online business <br> stays secure 24/7 364 days of <br> the year.
+      </span> <!-- span  class p-->
+      <span class="btn-container">
+        <span class="btn-security ">
+          Read More
+        </span> <!-- span btn-software -->
+      </span> <!-- span btn-container -->
+    </div> <!-- end of block it div -->
+  </div> <!-- end of item-1-->
+
+  <div class="item-4">
+    <div class="block-telecoms">
+      <span class="icon">
+        <span class="fa-solid fa-graduation-cap fa-2x">
+        </span> <!-- span icon-display -->
+      </span> <!-- span icon -->
+      <span class="h2">Developer Training</span>
+      <span class="p">
+        Have you considered a career <br> in web developer but you <br> aren't sure where to start?
+      </span> <!-- span  class p-->
+      <span class="btn-container">
+        <span class="btn-telecoms">
+          Read More
+        </span> <!-- span btn-software -->
+      </span> <!-- span btn-container -->
+    </div> <!-- end of block it div -->
+  </div> <!-- end of item-1-->
+
+
+</div> <!-- end of second row -->
+
+
+    <!-- CAROUSEL -->
+
+<div class="section carousel">
+  <div class="list-sliding">
+       
+        <div class="owl-item cloned">
+            <img class="greyscale" src="./img/google-partner.jpg" alt="Google Partners">
+          </div> <!-- end of item -->
+        </div> <!-- end of owl-item cloned -->
+
+        <div class="owl-item cloned">
+          <div class="item"> <!-- flex -->
+            <img class="greyscale" src="./img/investing-in-future-growth.jpg" alt="">
+          </div> <!-- end of item -->
+        </div> <!-- end of owl-item cloned -->
+
+        <div class="owl-item cloned">
+          <div class="item"> <!-- flex -->
+            <img class="greyscale" src="./img/norfolk-carbon-charter.jpg" alt="">
+          </div> <!-- end of item -->
+        </div> <!-- end of owl-item cloned -->
+
+        <div class="owl-item cloned">
+          <div class="item"> <!-- flex -->
+            <img class="greyscale" src="./img/PPC_logo.jpg" alt="">
+          </div> <!-- end of item -->
+        </div> <!-- end of owl-item cloned -->
+
+        <div class="owl-item cloned">
+          <div class="item"> <!-- flex -->
+            <img class="greyscale" src="./img/princess-royal-training.jpg" alt="">
+          </div> <!-- end of item -->
+        </div> <!-- end of owl-item cloned -->
+
+        <div class="owl-item cloned">
+          <div class="item"> <!-- flex -->
+            <img class="greyscale" src="./img/future-50.jpg" alt="">
+          </div> <!-- end of item -->
+        </div> <!-- end of owl-item cloned -->
+
+        <div class="owl-item cloned">
+          <div class="item"> <!-- flex -->
+            <img class="greyscale" src="./img/qms.jpg" alt="">
+          </div> <!-- end of item -->
+        </div> <!-- end of owl-item cloned -->
+
+        <div class="owl-item cloned">
+          <div class="item"> <!-- flex -->
+            <img class="greyscale" src="./img/skills-of-tomorrow.jpg" alt="">
+          </div> <!-- end of item -->
+        </div> <!-- end of owl-item cloned -->
+
+  </div> <!-- end of list div -->
+</div> <!-- end of div class section carousel -->
+
+
+<!------------- BRAND_BACKGROUND ------------->
+
+
+<div class="brand-background">
+  <div class="container section-background">
+    <div class="col-md-6">
+      <h2 class="h1"><strong>Welcome to Netmatters</strong></h2>
+
+      <p>
+        <strong>
+          Netmatters is a leading <a href="#">Bespoke Software</a>,
+      <a href="#">IT Support</a> and <a href="#">Digital Marketing</a> 
+      company based in the East of England with offices in <a href="#">Cambridge</a>,
+      and<a href="#"> Wymondham</a>, and <a href="#">Great Yarmouth</a>.
+        </strong>
+      </p>
+
+      <p>
+          We aren't tied into contracts with third-party providers, so you know <br>
+        that our recommendations for your business are based purely with one benefit in mind: to help
+        improve your business witnthe most appropriate solutions.
+      </p>
+
+      <p>
+        We pride ourselves on being an ethical business and have a unique business offering aria-hidden
+        cost model that ensures you get the most from our relationship in an upfront manner.
+      </p>
+
+      <a class="btn btn-primary-inverse" href="#">Read More <em class="fas fa-arrow-right"></em></a>
+      </div> <!-- end of col-md-6 -->
+
+      <div class="col-md-6">
+        <h2 class="h1">
+          <strong>What Our Clients Think</strong>
+        </h2>
+        <div class="fa fa-star" style="color: orange; margin-bottom: 25px; font-size: 50px;"></div>
+        <div class="fa fa-star" style="color: orange; margin-bottom: 25px; font-size: 50px;"></div>
+        <div class="fa fa-star" style="color: orange; margin-bottom: 25px; font-size: 50px;"></div>
+        <div class="fa fa-star" style="color: orange; margin-bottom: 25px; font-size: 50px;"></div>
+        <div class="fa fa-star" style="color: orange; margin-bottom: 25px; font-size: 50px;"></div>
+        <p>
+          <span class="client-quote">
+            Great service. Took the reigns and did the leg work for us. Ensured we were happy with out 
+            website and made all changes necessary as and when asked to do so.
+          </span>
+        </p>
+        <p>
+          <span class="client-quote-author">Oliver King - SEA Scaffolding</span>
+        </p>
+        <div class="buttons-google">
+          <a class="btn btn-primary btn-google" href="#" target="_blank" rel="nooperner noreferrer">
+            Google Reviews
+            <em class="fas fa-arrow-right"></em>
+          </a>
+          <a class="btn btn-primary btn-trustpilot" href="#" target="_blank" rel="nooperner noreferrer">
+            TrustPilot Reviews
+            <em class="fas fa-arrow-right">
+            </em>
+          </a>
+        </div>
+      </div> <!-- end of col-md-6 -->
+  </div> <!-- end of container section div -->
+</div> <!-- brand-background -->
+
+
+
+ <!---------------- ARTICLES --------------------->
+<div class="container news">
+  <h2 class="h1">
+    <strong>Latest News</strong>
+    <a href="#">View all<em class="fas fa-arrow-right"></em></a>
+  </h2>
+  
+</div> <!-- end of container news div -->
+
+
+
+<div class="container articles">
+    <div class="item-web" >
+      <span class="btn-ff">news</span>
+        <a href="#" target="_blank">
+          <img class="img-responsive" src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/netmatters-road-to-MEcu.jpg" alt="">
+        <div class="articles-grid">
+          <span class="h2"><strong>Netmatters Road To Net Zero</strong></span>
+          <span class="p">
+            Driving through our 'Road to Net Zero' We have some fantastic news to share regarding our latest add... 
+            <br>
+          </span> <!-- span class p -->
+          <span class="btn-container">
+            <span class="btn-articles">
+              Read More
+            </span> <!-- span btn-web-->
+          </span> <!-- span btn-container -->
+          <div class="line"></div>
+          <img class="avatar" src="https://www.netmatters.co.uk/assets/images/thumbnails/article_contact_thumb/netmatters-ltd-VXAv.png">
+          <div class="details">Posted by Netmatters <br> <span class="d-text">3rd August 2022</span></div>
+        </div> <!-- end of block software div -->
+      </a>
+    </div>
+
+
+
+      <div class="item-web">
+        <span class="btn-ff">news</span>
+        <div class="" href="https://www.netmatters.co.uk/bespoke-software">
+          <img class="img-responsive" src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/what-you-can-lfiw.jpg" alt="">
+        <div class="articles-grid">
+          <span class="h2"><strong>What You Can Do With Sharepoint</strong></span>
+          <span class="p">
+            Microsoft SharePoint has become a popular tool for businesses across the UK to collaborate more effe... 
+            <br>
+          </span> <!-- span class p -->
+          <span class="btn-container">
+            <span class="btn-articles">
+              Read More
+            </span> <!-- span btn-web-->
+          </span> <!-- span btn-container -->
+          <div class="line"></div>
+          <img class="avatar" src="https://www.netmatters.co.uk/assets/images/thumbnails/article_contact_thumb/netmatters-ltd-VXAv.png">
+          <div class="details">Posted by Netmatters <br> <span class="d-text">20th July 2022</span></div>
+        </div> <!-- end of block software div -->
+      </div>
+      </div>
+          
+      <div class="item-web">
+        <span class="btn-ff">news</span>
+        <div class="" href="https://www.netmatters.co.uk/bespoke-software">
+          <img class="img-responsive" src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/the-benefits-of-5cxV.jpg" alt="">
+        <div class="articles-grid">
+          <span class="h2"><strong>The Benefits of a Modern intranet</strong></span>
+          <span class="p">
+            Each month, every department recognises those who have gone above and beyond to deliver excellence w...
+            <br>
+          </span> <!-- span class p -->
+          <span class="btn-container">
+            <span class="btn-articles">
+              Read More
+            </span> <!-- span btn-web-->
+          </span> <!-- span btn-container -->
+          <div class="line"></div>
+          <img class="avatar" src="https://www.netmatters.co.uk/assets/images/thumbnails/article_contact_thumb/netmatters-ltd-VXAv.png">
+          <div class="details">Posted by Netmatters <br> <span class="d-text">12th July 2022</span></div>
+        </div> <!-- end of block software div -->
+      </div>
+
+
+      
+      </div>
+
+</div> <!-- end of container section div -->
+
+
+<div class="d-none d-lg-block section clients hidden-xs">
+  <div class="container">
+      <div class="company-logo">
+        <img class="greyscale" src="./img/home-color-gZQR.png" alt="Busseys Logo">
+      </div> <!-- end of item 1 div -->
+      <div class="company-logo">
+        <img class="greyscale" src="./img/home-color-MjHw.png" alt="Crane Garden Building Logo">
+      </div> <!-- end of item 2 div -->
+      <div class="company-logo">
+        <img class="greyscale" src="./img/home-coloured-ukEL.png" alt="Beat Logo">
+    </div> <!-- end of item 1 div -->
+    <div class="company-logo">
+      <img class="greyscale" src="./img/home-coloured-kGn4.png" alt="Northen Diver Logo">
+    </div> <!-- end of item 2 div -->
+  </div> <!-- end of container -->
+</div> <!-- end of section clients hidden-xs -->
+
+
+</div>
+</div> <!-- end of latest-articles div -->
+
+
+<!---------------- NEWSETTER SIGNUP ----------------->
+
+<div class="newsletter-full-width">
+  <div class="container">
+    <form id="sign-up" class="sign-up" method="POST" action="#" accept-charset="UTF-8">
+      <input name="_token" type="hidden" value="#">
+      <input name="return_url" type="hidden" value="https://www.netmatters.co.uk">
+      <h2 class="newsletter-text">Email Newsletter Sign-Up</h2>
+      <div class="sign-up-inputs-wrapper">
+        <div class="sign-up-input">
+          <div class="form-group">
+            <label class="required" for="newsletter-name">
+              Your Name
+            </label>
+            <input id="newsletter-name" class="form-control" name="name" type="text" values="">
+          </div> <!-- end of form group -->
+        </div> <!-- sign-up-input-->
+
+        <div class="form-group">
+          <label class="required email" for="newsletter-email">
+            Your Email
+          </label>
+          <input id="newsletter-email" class="form-control" name="email" type="text" values="">
+        </div> <!-- end of form group -->
+
+        <div class="form-group">
+          <label class="pretty-checkbox">
+            <span class="media">
+              <span class="media-left checkbox-left">
+                  <input type="checkbox" class="button">                
+              </span> <!-- end of span media-left -->
+              <span class="media-body">
+                Please tick this box if you wish to receive marketing information from us. Please see our
+                <a href="#" target="_blank" rel="nooperner noreferrer">Privacy Policy</a>  
+                for more information on how we keep your data safe. 
+              </span>
+            </span> <!-- span media -->
+          </label>
+        </div> <!-- end of form group 2 -->
+        <button class="btn btn-primary" name="submit">SUBSCRIBE</button>
+      </div> <!-- end of sign-up-inputs-wrapper -->
+    </form>
+  </div> <!-- end of container -->
+</div> <!-- end of newsletter-full-width -->
+
+
+<!---------- FOOTER ---------->
+
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <div class="services">
+        <div class="service">
+        <h4 class="about-netmatters">
+          ABOUT NETMATTERS
+        </h4>
+        <ul>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Our Careers</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Environmental Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div> 
+
+
+ 
+    <div class="service">
+        <h4 class="about-netmatters">
+          Our Services
+        </h4>
+        <ul>
+          <li><a href="#">Bespoke Software</a></li>
+          <li><a href="#">IT Supports</a></li>
+          <li><a href="#">Digital Marketing</a></li>
+          <li><a href="#">Telecoms Services</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Cyber Security</a></li>
+          <li><a href="#">Developer Training</a></li>
+        </ul>
+      </div> 
+
+      <div class="offices">
+        <div class="office">
+            <h4>
+                Cambridge Office
+            </h4>
+
+            <ul>
+                <li>Unit 1.31,</li>
+                <li>St John&#039;s Innovation Centre,</li>
+                <li>Cowley Road, Milton,</li>
+                <li>Cambridge,</li>
+                <li>CB4 0WS</li>
+                <li>&nbsp;</li>
+                <li>Tel: <a href="tel:01223375772">01223 37 57 72</a></li>
+            </ul>
+        </div>
+
+        <div class="office">
+            <h4>
+                Wymondham Office
+            </h4>
+
+            <ul>
+                <li>Unit 15,</li>
+                <li>Penfold Drive,</li>
+                <li>Gateway 11 Business Park,</li>
+                <li>Wymondham, Norfolk,</li>
+                <li>NR18 0WZ</li>
+                <li>&nbsp;</li>
+                <li>Tel: <a href="tel:01603704020">01603 70 40 20</a></li>
+            </ul>
+        </div>
+
+        <div class="office">
+            <h4>
+                Great Yarmouth Office
+            </h4>
+
+            <ul>
+                <li>Suite F23,</li>
+                <li>Beacon Innovation Centre,</li>
+                <li>Beacon Park, Gorleston,</li>
+                <li>Great Yarmouth, Norfolk,</li>
+                <li>NR31 7RA</li>
+                <li>&nbsp;</li>
+                <li>Tel: <a href="tel:01493603204">01493 60 32 04</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div> <!-- end of footer-row div  -->
+
+
+
+
+<div class="bottom">
+  <div class="license">
+      &copy; Copyright Netmatters 2022. All rights reserved. <span>-</span>
+      <ul><li class=" " >
+  <a href="#" >
+      Sitemap
+  </a>          
+</li>
+</ul>
+  </div>
+  <div class="social-media">
+
+    <a class="facebook" href="#" target="_blank">
+<span class="fab fa-facebook"></span>
+</a>
+
+    <a class="twitter" href="#" target="_blank">
+<span class="fab fa-twitter"></span>
+</a>
+
+    <a class="instagram" href="#" target="_blank">
+<span class="fab fa-instagram"></span>
+</a>
+
+    <a class="linkedin" href="#" target="_blank">
+<span class="fab fa-linkedin"></span>
+</a>
+</div>
+</div>
+
+  </div> <!-- end of footer container -->
+ </footer>
+
+</div>
+
+
+
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/fontawesome.js"></script>
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
