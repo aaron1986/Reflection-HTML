@@ -1,0 +1,158 @@
+@import './scss/partials/header',
+        './scss/partials/services',
+        './scss/partials/brand-background',
+        './scss/partials/articles',
+        './scss/partials/newsletter',
+        './scss/partials/footer';
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+  
+  body {
+    font-size: 1rem;
+    letter-spacing: .4px;
+    color: #666;
+  }
+  
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+
+
+
+
+/*-------- MIN WIDTH ---------*/
+
+
+
+@mixin respond($breakpoint) {
+
+
+
+  @if $breakpoint == x-small {
+    @media (max-width: 37.5em) {
+  @content;
+    }
+  }
+
+ @if $breakpoint == small {
+  @media (min-width: 48.125em) {
+   @content;
+ }
+}
+@if $breakpoint == medium {
+  @media (min-width: 62em) {
+    @content;
+  }
+}
+@if $breakpoint == exlarge {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+}
+
+@include respond(exlarge) {
+form.search-form {
+  width: 300px;
+}
+}
+
+@include respond(x-small) {
+
+  .logo > img {
+    width: 300px;
+height: 70px;
+  }
+
+  .search-form .search-bar {
+    height: 56px;
+width: 200px;
+}
+   .text {
+    margin-top: -30%;
+
+    .h1 {
+      font-size: 4vw;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 10%;
+    }
+    .bb {
+      font-size: 3vw;
+    }
+  }
+
+  .h1 > strong {
+    font-size: 1.5rem;
+  }
+
+  h2 > a {
+    font-size: 1.5rem;
+    margin-top: 4%;
+    }
+
+  label.required {
+    margin-left: 6%;
+    }
+    input#newsletter-name.form-control {
+      margin-left: 5%;
+      width: 200px;
+    }
+
+    input#newsletter-email.form-control {
+      width: 200px;
+    }
+
+  footer {
+    .footer-row {
+      display: block;
+     }
+    .services, .offices, .bottom  {
+      @include display-center;
+     }
+  }
+  }
+
+
+@include respond(small) {
+  .container.header {
+    display: flex;
+    justify-content: flex-start;
+   }
+   label.hidden {
+    margin-left: 20%;
+   }
+}
+
+@include respond(medium) {
+   label.hidden {
+    margin-left: 0%;
+   }
+   .btn-support {
+    margin-left: 3%;
+   }
+
+   form.search-form {
+    width: 303px;
+   }
+
+   .footer-row {
+    display: flex;
+justify-content: space-between;
+   }
+
+   .container {
+    min-width: 1200px;
+    display: grid;
+}
+
+
+}
+
